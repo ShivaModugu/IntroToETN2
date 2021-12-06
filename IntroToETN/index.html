@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Project 2 - OOP Concepts</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="pictures/logo.png"/></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"> </i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">APPLY HERE</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">LOCATION</a></li>
+                    <li><a href="">SERVICES</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>SkyTech LLC.</h1>
+        <p>Welcome to SkyTech LLC's website!</p>
+        <a href="" class="hero-btn">Click Here To Get Started</a>
+    </div>
+    </section>
+
+
+
+<!----Others---->
+
+<section class="course">
+    <h1>Stuff In Website</h1>
+    <p>This website covers:</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Description Of Company</h3>
+            <p>We are a consultancy agency trying to provide opportunities for individuals looking for work.</p>
+            </div>
+        <div class="course-col">
+            <h3>How To Apply</h3>
+            <p>Send your resume and cover letter and what you are looking to do. We will review your application and connect you to other companies.</p>
+        </div>
+        <div class="course-col">
+            <h3>Locations</h3>
+            <p>For now we are located in Elizabeth, NJ, but we are looking to expand into New York, Newark, and eventually other states. </p>
+        </div>
+    </div>
+</section>
+
+    <!---OTher stuff---->
+
+<section class="campus">
+    <h1>
+       Our Locations
+    </h1>
+    <p></p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src= "pictures/london.png">
+            <div class = "layer">
+                <h3>Elizabeth</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src= "pictures/newyork.png">
+            <div class = "layer">
+                <h3>New York</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src= "pictures/washington.png">
+            <div class = "layer">
+                <h3>California</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---Facilities--->
+    <!----
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>gjoiuaegjhawuiorgtjoiuarwjgiouaejhgoi</p>
+
+            <div class = "row">
+                <div class=facilities-col">
+                    <img src="pictures/library.png">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amert, consectetur adipiscing elit.
+                    Pellentesque aliquet turis nulla.</p>
+                </div>
+                <div class=facilities-col">
+                    <img src="pictures/basketball.png">
+                    <h3>Largest Play Grond</h3>
+                    <p>Lorem ipsum dolor sit amert, consectetur adipiscing elit.
+                        Pellentesque aliquet turis nulla.</p>
+                </div>
+                <div class=facilities-col">
+                    <img src="pictures/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amert, consectetur adipiscing elit.
+                        Pellentesque aliquet turis nulla.</p>
+                </div>
+            </div>
+        </section>
+
+        ---->
+    <!----Test---->
+
+<section class="testimonials">
+    <h1>Staff</h1>
+    <p>Meet 2 members of the staff....</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="pictures/CEO.jpg">
+            <div>
+                <p>
+                    Shiva has been elected to be the CEO of SkyTech LLC. As the CEO, the primary responsibilities at SkyTech are as follows.
+                </p>
+                <h3>Shiva Modugu</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="pictures/felix.jpg">
+            <div>
+                <p>
+                    Felix’s role as a partner will be The director of Human Resources. As the head of HR, Felix takes up the responsibility of the recruitment of Employees for our clients and employees that will be working with our firm.
+                </p>
+                <h3>Felix Kwafo</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!---- Call to Actoin ---->
+
+<section class="cta">
+    <h1>Apply Today</h1>
+    <a href="" class="hero-btn">Click Here To Go to Top</a>
+</section>
+
+<section class="footer">
+   <!--- <h4>Reach Out Today</h4>
+    <p></p>--->
+    <!---<a href="" class="hero-btn red-btn">Explore More</a>--->
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+<!--- Javacript for Menu --->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+    {
+        navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+
+</body>
+</html>
